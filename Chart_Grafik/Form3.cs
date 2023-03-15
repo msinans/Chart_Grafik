@@ -26,8 +26,8 @@ namespace Chart_Grafik
             chart1.Series["Otomobil"].Points.AddXY("Bugatti", 350);
          */
 
-            string[] otomobil = { "BMW", "Mercedes", "Ami", "Porsche", "Şahin", "Bugatti" };
-            int[] hiz = { 250, 240, 40, 300, 180, 350 };
+            string[] otomobil = { "BMW", "Mercedes", "Ami", "Porsche", "Şahin", "Bugatti", "Broadway" };
+            int[] hiz = { 250, 240, 40, 300, 180, 350, 160 };
 
             for (int i = 0; i < otomobil.Length; i++)
             {
